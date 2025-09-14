@@ -1,4 +1,4 @@
-import React from 'react'
+
 import chili from '../assets/chili.webp'
 import lasagne from '../assets/lasagne.webp'
 import cinquePi from '../assets/cinquePi.webp'
@@ -56,7 +56,7 @@ function Recipe() {
             <h1 className='font-bold text-xl'>Recipes for you:</h1>
             <div className='grid grid-cols-2 gap-4'>
                 {recipes.map((recipe, index) => (
-                    <a key={index} href={recipe.url} className='rounded-lg relative aspect-square overflow-hidden flex items-end justify-center px-2'>
+                    <a target='_blank' key={index} href={recipe.url} className='rounded-lg relative aspect-square overflow-hidden flex items-end justify-center px-2'>
                         <img src={recipe.image} alt={recipe.name} className='absolute inset-0 w-full h-full object-cover rounded-md z-0' />
                         <div className="absolute bottom-0 left-0 w-full h-20 bg-gradient-to-t from-black via-black/70 to-transparent z-10" />
                         <h2 className='font-bold text-white text-xl relative z-20 mb-4'>{recipe.name}</h2>

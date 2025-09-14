@@ -1,8 +1,8 @@
 import { useState } from 'react';
-import HomePage from './components/HomePage';
-import Shopping from './components/Shopping';
-import InStock from './components/InStock';
-import Recipe from './components/Recipe';
+import HomePage from './components/HomePage.tsx';
+import Shopping from './components/Shopping.tsx';
+import InStock from './components/InStock.tsx';
+import Recipe from './components/Recipe.tsx';
 
 import logo from './assets/logo.png'
 import Button from '@mui/material/Button'

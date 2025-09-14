@@ -1,4 +1,4 @@
-import React from 'react'
+import { useState } from 'react'
 
 import {
     Table,
@@ -36,10 +36,10 @@ const rows = [
 
 
 function InStock() {
-    const [open, setOpen] = React.useState(false);
-    const [selectedItem, setSelectedItem] = React.useState(null);
+    const [open, setOpen] = useState(false);
+    const [selectedItem, setSelectedItem] = useState<string | null>(null);
 
-    const handleReport = (itemName) => {
+    const handleReport = (itemName: string) => {
         setSelectedItem(itemName);
         setOpen(true);
     }
