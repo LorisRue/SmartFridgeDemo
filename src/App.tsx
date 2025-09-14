@@ -9,7 +9,7 @@ import Button from '@mui/material/Button'
 import { Home, ShoppingBag, FormatListBulleted, Article } from '@mui/icons-material';
 
 export default function App() {
-  const [selectedPage, setSelectedPage] = useState(3);
+  const [selectedPage, setSelectedPage] = useState(0);
   return (
     <div className="bg-background h-screen flex flex-col items-center p-5 gap-5">
       <img src={logo} alt="Logo" className='w-2/3' />
