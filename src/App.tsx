@@ -5,7 +5,7 @@ import Recipe from './components/Recipe.tsx';
 
 import logo from './assets/logo.png'
 import Button from '@mui/material/Button'
-import { Home, ShoppingBag, FormatListBulleted, Article } from '@mui/icons-material';
+import { ShoppingBag, FormatListBulleted, Article } from '@mui/icons-material';
 
 export default function App() {
   const [selectedPage, setSelectedPage] = useState(3);
