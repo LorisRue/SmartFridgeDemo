@@ -26,10 +26,9 @@ const rows = [
     { 'name': 'Milk', 'amount': 1, 'unit': 'l' },
     { 'name': 'Butter', 'amount': 250, 'unit': 'g' },
     { 'name': 'Cheese', 'amount': 200, 'unit': 'g' },
-    { 'name': 'Yogurt', 'amount': 4, 'unit': 'cups' },
+    { 'name': 'Yogurt', 'amount': 4, 'unit': 'pcs' },
     { 'name': 'Ham', 'amount': 150, 'unit': 'g' },
-    { 'name': 'Tomatoes', 'amount': 4, 'unit': 'pcs' },
-    { 'name': 'Lettuce', 'amount': 1, 'unit': 'head' },
+    { 'name': 'Lettuce', 'amount': 1, 'unit': 'pcs' },
     { 'name': 'Carrots', 'amount': 5, 'unit': 'pcs' },
     { 'name': 'Orange Juice', 'amount': 1, 'unit': 'l' },
 ];

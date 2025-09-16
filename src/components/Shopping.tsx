@@ -49,7 +49,7 @@ function Shopping() {
                     </Button>
                 </DialogActions>
             </Dialog>
-            <h1 className='font-bold text-xl'>Recipes for you:</h1>
+            <h1 className='font-bold text-xl'>Shopping list:</h1>
             <List>
                 {items.map((item) => (
                     <ListItem key={item} secondaryAction={
